@@ -8,3 +8,21 @@ to <varnish-misc@varnish-cache.org>.
 
 Questions about commercial support and services related to Varnish
 should be addressed to <sales@varnish-software.com>.
+
+
+Emanuele:
+
+https://varnish-cache.org/docs/2.1/installation/install.html#compiling-varnish-from-source
+
+Build dependencies on Debian / Ubuntu
+In order to build Varnish from source you need a number of packages installed. On a Debian or Ubuntu system these are:
+
+autotools-dev
+automake1.9
+libtool
+autoconf
+libncurses-dev
+xsltproc
+groff-base
+libpcre3-dev
+pkg-config
