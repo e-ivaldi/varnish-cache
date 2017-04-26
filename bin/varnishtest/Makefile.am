@@ -1,11 +1,11 @@
 # $Id$
 
 TESTS_ENVIRONMENT = ./varnishtest
-TESTS = $(srcdir)/tests/*.vtc
+TESTS = $PWD/tests/*.vtc
 
 DISTCLEANFILES = _.ok
 
-INCLUDES = -I$(top_srcdir)/include
+AM_CPPFLAGS  = -I$(top_srcdir)/include
 
 bin_PROGRAMS =	varnishtest
 

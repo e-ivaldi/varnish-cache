@@ -1,5 +1,4 @@
 # $Id$
-
 AC_PREREQ(2.59)
 AC_COPYRIGHT([Copyright (c) 2006 Verdens Gang AS
 Copyright (c) 2006-2010 Redpill Linpro AS
@@ -12,7 +11,7 @@ AM_CONFIG_HEADER(config.h)
 AC_CANONICAL_SYSTEM
 AC_LANG(C)
 
-AM_INIT_AUTOMAKE([foreign])
+AM_INIT_AUTOMAKE([subdir-objects])
 
 # Checks for programs.
 AC_GNU_SOURCE
