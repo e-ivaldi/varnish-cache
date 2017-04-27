@@ -9,7 +9,8 @@ xsltproc \
 groff-base \
 libpcre3-dev \
 pkg-config \
-make
+make \
+python-docutils
  
 COPY . /varnishsrc
 WORKDIR /varnishsrc
